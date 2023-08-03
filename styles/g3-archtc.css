@@ -213,6 +213,8 @@ section{
 .last-se-div{
     display: flex;
     justify-content: space-around;
+    gap: 40px;
+    align-items: center;
 }
 .last-se-h2{
     font-size: 45px;
@@ -279,10 +281,7 @@ footer{
         margin-left: 10px;
     }
     .last-se-div{
-        gap: 40px;
-        margin-left: 200px;
         flex-direction: column;
-        width: 30%;
     }
     .ex-10{
         padding: 10px 20px;
