@@ -1,0 +1,288 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+/* header styles  */
+
+.head-style{
+    padding: 50px 230px;
+    background-color:  #ff900e1a;
+}
+
+/* navcation bart styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 45px;
+    color:  #131313;
+}
+.nav-options{
+    display: flex;
+    gap: 30px;
+}
+.nav-options li{
+    list-style: none;
+    color:  #424242;
+    font-size: 18px;
+}
+
+/* navcation bart styles end */
+
+.banner{
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+ max-width: 1240px;
+ margin: 0 auto;
+}
+
+.banner-div-1{
+    text-align: center;
+}
+
+.banner-h2{
+    font-size: 64px;
+}
+
+.banner-p{
+    color:  #727272;
+    font-size: 16px;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 21px 24px 20px 25px;
+    margin-top: 32px;
+    color: #FFFFFF;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+/* header styles end */
+
+/* min section1 styles  */
+
+section{
+    margin-top: 80px;
+}
+
+.features{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.fer-aral{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.fer-aral-2{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.fer-aral-2 h3{
+    font-size: 45px;    
+}
+
+.sp{
+    color: #727272;
+}
+
+.sp-p{
+    color:  #727272;
+    font-size: 16px;
+}
+
+.sp2{
+    color: #FF900E;
+}
+
+/* min section1 styles end */
+
+
+/* min section2 styles  */
+
+.enjoy{
+    display: flex;
+    gap: 145px;
+}
+
+.enjoy-h3{
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
+
+.enjoy-div{
+    margin-left: 10px;
+}
+
+.box-salu{
+    padding: 20px;
+    margin: 0px 0 20px 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ex-10{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ex-10 >h2 {
+    font-size: 65px;
+}
+
+.ex-10> p{
+    font-size: 30px;
+}
+
+/* min section2 styles end */
+
+/* min section3 styles  */
+
+.se-div{
+    margin-left: 25px;
+}
+
+.se-h2{
+    font-size: 45px;
+}
+
+.se-p{
+    font-size: 16px;
+    color:  #727272;
+}
+
+.blogs{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 30px ;
+}
+
+.blogs h3{
+    font-size: 45px;    
+    color: #424242;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.blogs p{
+    font-size: 20px;
+    color:  #727272;
+    margin: 0;
+    padding: 5px 0 20px 0;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* min section3 styles end  */
+
+
+
+.last-se-div{
+    display: flex;
+    justify-content: space-around;
+}
+.last-se-h2{
+    font-size: 45px;
+    text-align: center;
+}
+.last-se-p{
+    color:  #727272;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:  #424242;
+}
+
+@media screen and (max-width:576px) {
+    nav{
+       flex-direction: column;
+    }
+    .head-style{
+        padding:20px;
+    }
+    .banner-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .features{
+        grid-template-columns:1fr;
+    
+    }
+    .fer-aral{
+        grid-template-columns: 1fr;
+           
+    }
+    .fer-aral img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+    }
+    .enjoy{
+        flex-direction: column;
+    }
+    .enjoy-img{
+        height: 100%;
+        width: 90%;
+        margin-left: 30px;
+    }
+    .blog {
+        flex-direction: column;
+        width: 95%;
+        gap: 40px;
+        margin-left: 10px;
+    }
+    .last-se-div{
+        gap: 40px;
+        margin-left: 200px;
+        flex-direction: column;
+        width: 30%;
+
+    }
+}
